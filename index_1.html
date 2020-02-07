@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>ExpManager</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="nextPage">
+            <h1>Welcome !!</h1>
+        </div>
+
+        <div class="incexp">
+            <h3> Income_Expense Of Current Month:</h3>
+        </div>
+    
+        <div class="detail1">
+            <h3>Income Source</h3>
+                Secondry Salary: <input type="number" id="income1" name="input">
+                Bonous Income: <input type="number" id="income2" name="input"><br><br>
+                Business Income: <input type="number" id="income3" name="input">
+                Primary Salary: <input type="number" id="income4" name="input"><br><br>
+            
+            <h3>Expenduture</h3>
+                Room Rent: <input type="number" id="expense1" name="Expense">
+                Electricity Bill: <input type="number" id="expense2" name="Expense"><br><br>
+                Petrol: <input type="number" id="expense3" name="Expense">
+                Shoping: <input type="number" id="expense4" name="Expense"><br><br>  
+                <button onclick="submit2()">Total income Expense</button><br><br>
+               
+        </div> 
+
+        <div class="incexp">
+            <h3> Total Income_Expense Of Current Month:</h3>
+        </div>
+
+        <div class="detail1">
+            Total Income: <input type="number" id="income" name="input">
+            Total Expenduture: <input type="number" id="expense" name="Expense"><br><br>
+            <button onclick="submit()">Submit</button><br><br>
+            Saving:<input type="number" id="saving" >
+        </div>
+
+        <script src="script.js"> </script>
+    </body>
+</html>

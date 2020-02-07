@@ -1,0 +1,51 @@
+.center {
+    margin: auto;
+    width: 70%;
+    border: 3px solid #73AD21;
+    padding: 5px;
+    text-align: center;
+    background: lightgreen;
+    border-radius: 20px;
+  }
+  .details {
+    margin: auto;
+    width: 50%;
+    border: 3px solid #73AD21;
+    padding: 5px;
+    background: lightgreen;
+    color: darkred;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 20px;
+  }
+  .nextPage {
+    margin: auto;
+    width: 15%;
+    border: 3px solid #9E9E9E;
+    padding: 2px;
+    margin: 10px 0px 0px 20px;
+    color: darkred;
+    text-align: center;
+    background: lightseagreen;
+    border-radius: 15px;
+  }
+  .incexp {
+    margin: auto;
+    width: 50%;
+    padding: 2px;
+    margin: 10px 0px 0px 20px;
+    color: darkred;
+    border-radius: 25px;
+    
+  }
+  .detail1 {
+    margin: auto;
+    width: 70%;
+    border: 3px solid #73AD21;
+    padding: 5px;
+    background: lightgreen;
+    color: darkred;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 25px;
+  }
